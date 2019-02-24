@@ -12,6 +12,7 @@ if (process.argv.length < 3) {
   console.log('');
   console.log('command will repeat until it errors, and will exit with the');
   console.log('same exit code as the command being repeated');
+  process.exit(0);
 }
 
 var command = join(process.argv.slice(2));
