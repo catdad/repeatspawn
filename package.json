@@ -4,7 +4,7 @@
   "description": "repeatspawn",
   "main": "index.js",
   "bin": {
-    "repeatspawn": './repeatspawn.js'
+    "repeatspawn": "./repeatspawn.js"
   },
   "dependencies": {
     "shellton": "^5.0.0",
